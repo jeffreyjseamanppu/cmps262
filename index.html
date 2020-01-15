@@ -22,13 +22,30 @@
         padding: 0;
         width: 200px;
         background-color: #f1f1f1;
-        padding: 8px, 16px; 
+        padding: 8px, 16px;
       }
 
       li {
         display: block;
         width: 60px;
         background-color: #dddddd;
+      }
+
+      li a {
+        display: block;
+        color: #000;
+        padding: 8px, 16px;
+        text-decoration: none;
+      }
+
+      li a.active {
+        background-color: #4caf50;
+        color: white;
+      }
+
+      li a:hover:not(.active) {
+        background-color:#555;
+        color: white;
       }
     </style>
     <body>
@@ -40,17 +57,17 @@
       </ul>
       <h1>Point Park Rocks!</h1>
       <p>Traffic is a nightmare on Mondays</p>
-<<<<<<< HEAD
+
       <div style="background-color: yellow">
         <h3>The NyGiants will lose this weekend</h3>
         <p>The 49ers will win</p>
-=======
+
       <div style="background:lightblue">
         <h3>The NYG will lose</h3>
         <p>The 9ers will win</p>
 
 
->>>>>>> 5c7d3ecebca400c34c562cfcb8b2205b6cdb080c
+
       </div>
     </body>
   </head>
